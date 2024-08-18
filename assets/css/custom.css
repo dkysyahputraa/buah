@@ -1,0 +1,16 @@
+.test_slide {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.slide_2 {
+  background-color: brown;
+}
+
+.slide_3 {
+  background-color: darkgreen;
+}

@@ -1,422 +1,536 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" crossorigin="">
+    <!--=============== REMIXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
+      crossorigin=""
+    />
 
-      <!-- Swiper CSS -->
-      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
-      <!-- Bootstrap -->
-      
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Bootstrap -->
 
-      <title>Tumuwuh Garden - Indonesia</title>
-   </head>
-   <body>
-      <!--==================== FLOATING ====================-->
-      <div class="floating-buttons">
-         <a href="https://wa.me/yourwhatsappnumber" class="floating-button whatsapp" target="_blank" aria-label="Chat with us on WhatsApp">
-             <i class="ri-whatsapp-line"></i>
-         </a>
-         <a href="#" class="floating-button faq" id="myBtn">
-            <i class="ri-questionnaire-line"></i>
-         </a>
-     </div>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
 
-     <!-- The Modal -->
-      <div id="myModal" class="modal">
+    <title>Tumuwuh Garden - Indonesia</title>
+  </head>
+  <body>
+    <!--==================== FLOATING ====================-->
+    <div class="floating-buttons">
+      <a
+        href="https://wa.me/yourwhatsappnumber"
+        class="floating-button whatsapp"
+        target="_blank"
+        aria-label="Chat with us on WhatsApp"
+      >
+        <i class="ri-whatsapp-line"></i>
+      </a>
+      <a href="#" class="floating-button faq" id="myBtn">
+        <i class="ri-questionnaire-line"></i>
+      </a>
+    </div>
 
-         <!-- Modal content -->
-         <div class="modal-content">
-            <div class="modal-header">
-               <span class="close">&times;</span>
-               <div class="modal-title">Judul FAQ</div>
-            </div>
-            
-            <div class="modal-body">
-               <button class="accordion">Section 1 <i class="ri-arrow-down-s-line"></i></button>
-               <div class="panel">
-                 <p class="sub-faq">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-               </div>
-             
-               <button class="accordion">Section 2 <i class="ri-arrow-down-s-line"></i></button>
-               <div class="panel">
-                 <p class="sub-faq">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               </div>
-             
-               <button class="accordion">Section 3 <i class="ri-arrow-down-s-line"></i></button>
-               <div class="panel">
-                 <p class="sub-faq">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-               </div>
-             </div>             
-         </div>
-      
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <div class="modal-title">Judul FAQ</div>
+        </div>
+
+        <div class="modal-body">
+          <button class="accordion">
+            Section 1 <i class="ri-arrow-down-s-line"></i>
+          </button>
+          <div class="panel">
+            <p class="sub-faq">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+
+          <button class="accordion">
+            Section 2 <i class="ri-arrow-down-s-line"></i>
+          </button>
+          <div class="panel">
+            <p class="sub-faq">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+            </p>
+          </div>
+
+          <button class="accordion">
+            Section 3 <i class="ri-arrow-down-s-line"></i>
+          </button>
+          <div class="panel">
+            <p class="sub-faq">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit...
+            </p>
+          </div>
+        </div>
       </div>
+    </div>
 
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         <nav class="nav container">
-            <a href="#" class="nav__logo">
-               <img src="assets/img/logo.png" alt="">Tumuwuh Garden 
-            </a>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="assets/img/logo.png" alt="" />Tumuwuh Garden
+        </a>
 
-            <div class="nav__menu" id="nav-menu">
-               <ul class="nav__list">
-                  <li class="nav__item">
-                     <a href="#home" class="nav__link active-link">Home</a>
-                  </li>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#about" class="nav__link">About Us</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Us</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#popular" class="nav__link">Popular</a>
-                  </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Popular</a>
+            </li>
 
-                  <li class="nav__item">
-                     <a href="#join" class="nav__link">Join Us</a>
-                  </li>
-               </ul>
+            <li class="nav__item">
+              <a href="#join" class="nav__link">Join Us</a>
+            </li>
+          </ul>
 
-               <!-- Close button -->
-               <div class="nav__close" id="nav-close">
-                  <i class="ri-close-line"></i>
-               </div>
+          <!-- Close button -->
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
 
-               <img src="assets/img/branch-2.png" alt="" class="nav__img-1">
-               <img src="assets/img/fruit-line-1.png" alt="" class="nav__img-2">
-            </div>
+          <img src="assets/img/branch-2.png" alt="" class="nav__img-1" />
+          <img src="assets/img/fruit-line-1.png" alt="" class="nav__img-2" />
+        </div>
 
-            <!-- Theme button-->
-            <div class="nav__buttons">
-               <i class="ri-moon-line change-theme" id="theme-button"></i>
-               <!-- Toggle button-->
-               <div class="nav__toggle" id="nav-toggle">
-                  <i class="ri-apps-2-line"></i>
-               </div>
-            </div>
-         </nav>
-      </header>
+        <!-- Theme button-->
+        <div class="nav__buttons">
+          <i class="ri-moon-line change-theme" id="theme-button"></i>
+          <!-- Toggle button-->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-apps-2-line"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            <div class="home__container container grid">
-               <div class="home__data">
-                     <h1 class="home__title">
-                        Keindahan Taman
-                        Yang Tumbuh Besama Anda
-                     </h1>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h1 class="home__title">Keindahan Taman Yang Tumbuh Besama Anda</h1>
 
-                     <p class="home__description">
-                        Tumuwuh Garden menciptakan taman impian klien dengan desain landscape yang indah dan fungsional, dari perencanaan hingga perawatan, dengan keahlian tinggi.
-                     </p>
+            <p class="home__description">
+              Tumuwuh Garden menciptakan taman impian klien dengan desain
+              landscape yang indah dan fungsional, dari perencanaan hingga
+              perawatan, dengan keahlian tinggi.
+            </p>
 
-                     <a href="#" class="button">
-                        Order Fruit Now
-                     </a>
+            <a href="#" class="button"> Order Fruit Now </a>
 
-                     <!-- <img src="assets/img/fruit-line-2.png" alt="image" class="home__fruit"> -->
-               </div>
+            <!-- <img src="assets/img/fruit-line-2.png" alt="image" class="home__fruit"> -->
+          </div>
 
-               <img src="assets/img/landscape-bandung.png" alt="image" class="home__img">
-            </div>
+          <img
+            src="assets/img/landscape-bandung.png"
+            alt="image"
+            class="home__img"
+          />
+          <!-- <img
+            src="assets/img/branch-2.png"
+            alt="image"
+            class="home__branch"
+          /> -->
+        </div>
+      </section>
 
-            <img src="assets/img/branch-2.png" alt="image" class="home__branch">
-         </section>
+      <!--==================== ENJOY ====================-->
+      <section class="enjoy section">
+        <h2 class="section__title">Tentang Kami</h2>
 
-         <!--==================== ENJOY ====================-->
-         <section class="enjoy section">
-            <h2 class="section__title">
-               Tentang Kami
-            </h2>
+        <div class="enjoy__container container grid">
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
 
-            <div class="enjoy__container container grid">
-               <article class="enjoy__card">
-                  <div class="enjoy__bg"></div>
+            <img
+              src="assets/img/legal-tumuwuh.png"
+              alt="image"
+              class="enjoy__img"
+            />
+            <h3 class="enjoy__title">Legalitas</h3>
+            <span class="enjoy__subtitle"
+              >Kami memiliki legalitas hukum demi menjaga kepercayaan
+              klien.</span
+            >
+          </article>
 
-                     <img src="assets/img/legal-tumuwuh.png" alt="image" class="enjoy__img">
-                     <h3 class="enjoy__title">Legalitas</h3>
-                        <span class="enjoy__subtitle">Kami memiliki legalitas hukum demi menjaga kepercayaan klien.</span>
-               </article>
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
 
-               <article class="enjoy__card">
-                  <div class="enjoy__bg"></div>
+            <img
+              src="assets/img/garansi-tumuwuh.png"
+              alt="image"
+              class="enjoy__img"
+            />
+            <h3 class="enjoy__title">Garansi</h3>
+            <span class="enjoy__subtitle"
+              >Menjamin kualitas dan hasil terbaik dalam setiap proyek.</span
+            >
+          </article>
 
-                     <img src="assets/img/garansi-tumuwuh.png" alt="image" class="enjoy__img">
-                     <h3 class="enjoy__title">Garansi</h3>
-                        <span class="enjoy__subtitle">Menjamin kualitas dan hasil terbaik dalam setiap proyek.</span>
-               </article>
+          <article class="enjoy__card">
+            <div class="enjoy__bg"></div>
 
-               <article class="enjoy__card">
-                  <div class="enjoy__bg"> </div>
+            <img
+              src="assets/img/konsultasi-tumuwuh.png"
+              alt="image"
+              class="enjoy__img"
+            />
+            <h3 class="enjoy__title">Kustomisasi</h3>
+            <span class="enjoy__subtitle"
+              >Solusi lanskap disesuaikan dengan kebutuhan dan keinginan
+              klien.</span
+            >
+          </article>
+        </div>
+      </section>
 
-                     <img src="assets/img/konsultasi-tumuwuh.png" alt="image" class="enjoy__img">
-                     <h3 class="enjoy__title">Kustomisasi</h3>
-                        <span class="enjoy__subtitle">Solusi lanskap disesuaikan dengan kebutuhan dan keinginan klien.</span>
-               </article>
-            </div>
-         </section>
-
-         <!--==================== ABOUT US ====================-->
-         <section class="about section" id="about">
-            <div class="about__container container grid">
-               <div class="about__data">
+      <!--==================== ABOUT US ====================-->
+      <section class="about section" id="about">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="about__container container grid">
+                <div class="about__data">
                   <h2 class="section__title">
-                     We Provide <br>
-                     Healthy Fruits
+                    We Provide <br />
+                    Healthy Fruits
                   </h2>
 
                   <p class="about__description">
-                     The fruits come to us from the best harvests, planted with the care required to obtain the best quality fruit, enjoying its flavors and taking care of your health.
+                    The fruits come to us from the best harvests, planted with
+                    the care required to obtain the best quality fruit, enjoying
+                    its flavors and taking care of your health.
                   </p>
 
-                  <a href="#" class="button">
-                     Know Here
-                  </a>
+                  <a href="#" class="button"> Know Here </a>
 
-                  <img src="assets/img/plant.png" alt="image" class="about__fruit">
-               </div>
+                  <img
+                    src="assets/img/plant.png"
+                    alt="image"
+                    class="about__fruit"
+                  />
+                </div>
 
-               <img src="assets/img/about-fruits.png" alt="image" class="about__img">
+                <img
+                  src="assets/img/about-fruits.png"
+                  alt="image"
+                  class="about__img"
+                />
+              </div>
             </div>
+            <div class="swiper-slide">
+              <div class="test_slide slide_2">Slide 2</div>
+            </div>
+            <div class="swiper-slide">
+              <div class="test_slide slide_3">Slide 3</div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
 
-            <img src="assets/img/branch-1.png" alt="image" class="about__branch">
-         </section>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
 
-         <!--==================== POPULAR ====================-->
-         <section class="popular section" id="popular">
-            <h2 class="section__title">
-               Klien Kami
-            </h2>
+        <img src="assets/img/branch-1.png" alt="image" class="about__branch" />
+      </section>
 
-            <div class="popular__container container grid">
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+      <!--==================== POPULAR ====================-->
+      <section class="popular section" id="popular">
+        <h2 class="section__title">Klien Kami</h2>
 
-                  <img src="assets/img/klien-tumuwuh-garden-1.png" alt="image" class="popular__img">
-                  <h3 class="popular__title">Ibu Kota Nusantara</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+        <div class="popular__container container grid">
+          <article class="popular__card">
+            <div class="popular__bg"></div>
+
+            <img
+              src="assets/img/klien-tumuwuh-garden-1.png"
+              alt="image"
+              class="popular__img"
+            />
+            <h3 class="popular__title">Ibu Kota Nusantara</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3> -->
 
-                  <!-- <button class="popular__button button">
+            <!-- <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
 
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+          <article class="popular__card">
+            <div class="popular__bg"></div>
 
-                  <img src="assets/img/klien-tumuwuh-garden-2.png" alt="image" class="popular__img">
-                  <h3 class="popular__title">Cimory Grup</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+            <img
+              src="assets/img/klien-tumuwuh-garden-2.png"
+              alt="image"
+              class="popular__img"
+            />
+            <h3 class="popular__title">Cimory Grup</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3> -->
 
-                  <!-- <button class="popular__button button">
+            <!-- <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
 
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+          <article class="popular__card">
+            <div class="popular__bg"></div>
 
-                  <img src="assets/img/klien-tumuwuh-garden-3.png" alt="image" class="popular__img">
-                  <h3 class="popular__title">Kebun Begonia</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+            <img
+              src="assets/img/klien-tumuwuh-garden-3.png"
+              alt="image"
+              class="popular__img"
+            />
+            <h3 class="popular__title">Kebun Begonia</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3> -->
 
-                  <!-- <button class="popular__button button">
+            <!-- <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
 
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+          <article class="popular__card">
+            <div class="popular__bg"></div>
 
-                  <img src="assets/img/klien-tumuwuh-garden-4.png" alt="image" class="popular__img" style="filter: var(--filter-img);">
-                  <h3 class="popular__title">UNOS Cafe</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+            <img
+              src="assets/img/klien-tumuwuh-garden-4.png"
+              alt="image"
+              class="popular__img"
+              style="filter: var(--filter-img)"
+            />
+            <h3 class="popular__title">UNOS Cafe</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3> -->
 
-                  <!-- <button class="popular__button button">
+            <!-- <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
 
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+          <article class="popular__card">
+            <div class="popular__bg"></div>
 
-                  <img src="assets/img/klien-tumuwuh-garden-5.png" alt="image" class="popular__img" >
-                  <h3 class="popular__title">The Juicery Bandung</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+            <img
+              src="assets/img/klien-tumuwuh-garden-5.png"
+              alt="image"
+              class="popular__img"
+            />
+            <h3 class="popular__title">The Juicery Bandung</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3> -->
 
-                  <!-- <button class="popular__button button">
+            <!-- <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
 
-               <article class="popular__card">
-                  <div class="popular__bg"></div>
+          <article class="popular__card">
+            <div class="popular__bg"></div>
 
-                  <img src="assets/img/klien-tumuwuh-garden-6.png" alt="image" class="popular__img">
-                  <h3 class="popular__title">Privat Garden</h3>
-                  <!-- <span class="popular__subtitle">X Psub</span>
+            <img
+              src="assets/img/klien-tumuwuh-garden-6.png"
+              alt="image"
+              class="popular__img"
+            />
+            <h3 class="popular__title">Privat Garden</h3>
+            <!-- <span class="popular__subtitle">X Psub</span>
                   <h3 class="popular_price">Rp.xx</h3>
 
                   <button class="popular__button button">
                      <i class="ri-add-line"></i>
                   </button> -->
-               </article>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== JOIN US ====================-->
+      <section class="join section" id="join">
+        <div class="join__container container grid">
+          <div class="join__content grid">
+            <div class="join__data">
+              <h2 class="section__title">
+                Receive The <br />
+                Best landscape
+              </h2>
+
+              <p class="join__description">
+                Get up to date with the latest fruit harvests and information
+                from us.
+              </p>
             </div>
-         </section>
+            <form action="" class="join__form">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="join__input"
+              />
 
-         <!--==================== JOIN US ====================-->
-         <section class="join section" id="join">
-            <div class="join__container container grid">
-               <div class="join__content grid">
-                  <div class="join__data">
-                     <h2 class="section__title">
-                        Receive The <br>
-                        Best landscape
-                     </h2>
+              <button class="join__button button">Subscribe Now</button>
+            </form>
 
-                     <p class="join__description">
-                        Get up to date with the latest fruit harvests and information from us.
-                     </p>
-                  </div>
-                  <form action="" class="join__form">
-                     <input type="email" placeholder="Enter your email" class="join__input">
+            <img src="assets/img/join-bg-2.png" alt="image" class="join__bg" />
+          </div>
 
-                     <button class="join__button button">
-                        Subscribe Now
-                     </button>
-                  </form>
+          <img src="assets/img/leaf.png" alt="image" class="join__leaf-1" />
+          <img src="assets/img/leaf.png" alt="image" class="join__leaf-2" />
+        </div>
+      </section>
+    </main>
 
-                  <img src="assets/img/join-bg-2.png" alt="image" class="join__bg">
-               </div>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo.png" alt="" />Tumuwuh Garden
+          </a>
 
-               <img src="assets/img/leaf.png" alt="image" class="join__leaf-1">
-               <img src="assets/img/leaf.png" alt="image" class="join__leaf-2">
+          <p class="footer__description">
+            Healthy Life, choose <br />
+            the best landscape
+          </p>
+        </div>
+
+        <div class="footer__data grid">
+          <div>
+            <h3 class="footer__title">Company</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">FAQs</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">News</h3>
+
+            <ul class="footer__links">
+              <li>
+                <a href="#" class="footer__link">Features</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Testimonial</a>
+              </li>
+              <li>
+                <a href="#" class="footer__link">Videos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Address</h3>
+
+            <ul class="footer__links">
+              <li class="footer__info">
+                Lembang, Bandung Barat <br />
+                Jawa Barat, 40391.
+              </li>
+
+              <li class="footer__info">9AM - 11PM</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="footer__title">Social Media</h3>
+
+            <div class="footer_social">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-facebook-circle-line"></i>
+              </a>
+
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-instagram-line"></i>
+              </a>
+
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-youtube-line"></i>
+              </a>
             </div>
-         </section>
-      </main>
+          </div>
+        </div>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         <div class="footer__container container grid">
-            <div>
-               <a href="#" class="footer__logo">
-                  <img src="assets/img/logo.png" alt="">Tumuwuh Garden
-               </a>
-
-               <p class="footer__description">
-                  Healthy Life, choose <br>
-                  the best landscape
-               </p>
-            </div>
-
-            <div class="footer__data grid">
-               <div>
-                  <h3 class="footer__title">Company</h3>
-
-                  <ul class="footer__links">
-                     <li>
-                        <a href="#" class="footer__link">FAQs</a>
-                     </li>
-                     <li>
-                        <a href="#" class="footer__link">About Us</a>
-                     </li>
-                     <li>
-                        <a href="#" class="footer__link">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-
-               <div>
-                  <h3 class="footer__title">News</h3>
-
-                  <ul class="footer__links">
-                     <li>
-                        <a href="#" class="footer__link">Features</a>
-                     </li>
-                     <li>
-                        <a href="#" class="footer__link">Testimonial</a>
-                     </li>
-                     <li>
-                        <a href="#" class="footer__link">Videos</a>
-                     </li>
-                  </ul>
-               </div>
-
-               <div>
-                  <h3 class="footer__title">Address</h3>
-
-                  <ul class="footer__links">
-                     <li class="footer__info">
-                        Lembang, Bandung Barat <br>
-                        Jawa Barat, 40391.
-                     </li>
-
-                     <li class="footer__info">
-                        9AM - 11PM
-                     </li>
-                  </ul>
-               </div>
-
-               <div>
-                  <h3 class="footer__title">Social Media</h3>
-
-                  <div class="footer_social">
-                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                        <i class="ri-facebook-circle-line"></i>
-                     </a>
-
-                     <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-line"></i>
-                     </a>
-
-                     <a href="https://www.youtube.com/" target="_blank" class="footer__social-link">
-                        <i class="ri-youtube-line"></i>
-                     </a>
-                  </div>
-               </div>
-            </div>
-
-            <!-- <img src="assets/img/fruit-line-3.png" alt="image" class="footer__fruit">
+        <!-- <img src="assets/img/fruit-line-3.png" alt="image" class="footer__fruit">
             <img src="assets/img/branch-1.png" alt="image" class="footer__branch-1">
             <img src="assets/img/branch-2.png" alt="image" class="footer__branch-2"> -->
-         </div>
+      </div>
 
-         <span class="footer__copy">
-            &#169; All Right Reserved By Fata Software House
-         </span>
-      </footer>
+      <span class="footer__copy">
+        &#169; All Right Reserved By Fata Software House
+      </span>
+    </footer>
 
-      <!--========== SCROLL UP ==========-->
-      <a href="#" class="scrollup" id="scroll-up">
-         <i class="ri-arrow-up-s-line"></i>
-      </a>
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+    </a>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
 
-      <!-- Swiper JS -->
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-      <!-- Bootstrap -->
+    <!-- Bootstrap -->
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper.js"></script>
+  </body>
 </html>
